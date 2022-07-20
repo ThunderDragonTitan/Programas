@@ -2,8 +2,6 @@
 #define LECTOR_H
 #include <Estudiante.h>
 #include <Profesor.h>
-
-
 class Lector : public Estudiante , public Profesor
 {
     public:

@@ -7,21 +7,23 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/LybraryManager2.0" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/LybraryManager2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/LybraryManager2.0" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/LybraryManager2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Persona.cpp" />
+		<Unit filename="include/Autor.h" />
+		<Unit filename="include/Estudiante.h" />
+		<Unit filename="include/Lector.h" />
+		<Unit filename="include/Persona.h" />
+		<Unit filename="include/Profesor.h" />
+		<Unit filename="include/Residencia.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Autor.cpp" />
+		<Unit filename="src/Estudiante.cpp" />
+		<Unit filename="src/Lector.cpp" />
+		<Unit filename="src/Profesor.cpp" />
+		<Unit filename="src/Residencia.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

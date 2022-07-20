@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1658341832 source:c:\users\wbes_\onedrive\documents\lybrarymanager2.0\main.cpp
+	<string>
+	<conio.h>
+	<iostream>
+	"Persona.h"
+	"Residencia.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Lector.h"
+
+1658332540 source:c:\users\wbes_\onedrive\documents\lybrarymanager2.0\persona.cpp
+	"Persona.h"
+	"Residencia.h"
+
+1658331265 c:\users\wbes_\onedrive\documents\lybrarymanager2.0\include\persona.h
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658331113 source:c:\users\wbes_\onedrive\documents\lybrarymanager2.0\src\residencia.cpp
+	"Residencia.h"
+
+1658333345 c:\users\wbes_\onedrive\documents\lybrarymanager2.0\include\residencia.h
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658341823 source:c:\users\wbes_\onedrive\documents\lybrarymanager2.0\src\estudiante.cpp
+	"Estudiante.h"
+
+1658341823 c:\users\wbes_\onedrive\documents\lybrarymanager2.0\include\estudiante.h
+	<Persona.h>
+
+1658341630 c:\users\wbes_\onedrive\documents\lybrarymanager2.0\include\profesor.h
+	<Persona.h>
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658339742 source:c:\users\wbes_\onedrive\documents\lybrarymanager2.0\src\profesor.cpp
+	"Profesor.h"
+
+1658340393 source:c:\users\wbes_\onedrive\documents\lybrarymanager2.0\src\autor.cpp
+	"Autor.h"
+
+1658340358 c:\users\wbes_\onedrive\documents\lybrarymanager2.0\include\autor.h
+	<Persona.h>
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658340973 source:c:\users\wbes_\onedrive\documents\lybrarymanager2.0\src\lector.cpp
+	"Lector.h"
+
+1658341104 c:\users\wbes_\onedrive\documents\lybrarymanager2.0\include\lector.h
+	<Estudiante.h>
+	<Profesor.h>
+
+1658341861 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\main.cpp
+	<string>
+	<conio.h>
+	<iostream>
+	"Persona.h"
+	"Residencia.h"
+	"Estudiante.h"
+	"Profesor.h"
+	"Lector.h"
+
+1658331265 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\persona.h
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658333345 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\residencia.h
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658341823 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\estudiante.h
+	<Persona.h>
+
+1658341630 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\profesor.h
+	<Persona.h>
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658341104 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\lector.h
+	<Estudiante.h>
+	<Profesor.h>
+
+1658332540 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\persona.cpp
+	"Persona.h"
+	"Residencia.h"
+
+1658340393 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\autor.cpp
+	"Autor.h"
+
+1658340358 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\autor.h
+	<Persona.h>
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658341823 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\estudiante.cpp
+	"Estudiante.h"
+
+1658340973 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\lector.cpp
+	"Lector.h"
+
+1658339742 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\profesor.cpp
+	"Profesor.h"
+
+1658331113 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\residencia.cpp
+	"Residencia.h"
+

@@ -14,7 +14,6 @@ class Palabras_Clave{
         virtual ~Palabras_Clave();
         void setNombre(string);
         void setNumero(int);
-        void adicionarLibro(Libro *clave1,ListaS *&cab);
         string getNombre();
         int getNumero();
 };

@@ -5,6 +5,8 @@
 #include "Palabras_Clave.h"
 #include "Autor.h"
 #include "Ejemplares.h"
+class Autor;
+class Palabras_Clave;
 using namespace std;
 class Libro{
     private:
@@ -18,9 +20,8 @@ class Libro{
         void setTitulo(string);
         void setEditorial(string);
         void setEdicion(string);
-        void adicionarPalabra(Palabras_Clave *clave1);
-        void adicionarAutor(Autor *a);
-        void setEjemplares(Ejemplares *ej);
+        void adicionarPalabra(Palabras_Clave clave1);
+        void adicionarAutor(Autor a);
         int getIssn();
         int getPaginas();
         string getTitulo();

@@ -18,6 +18,7 @@ class Persona
         string getFechaNacimineto();
         int getIdentidad();
         int getGenero();
+        void getResidencia(Residencia casaI);
         void setResidencia(Residencia casaI);
     private:
         string nombre,fechaNacimiento;

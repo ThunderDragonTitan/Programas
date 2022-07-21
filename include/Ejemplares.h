@@ -3,6 +3,7 @@
 #include "Libro.h"
 #include<string.h>
 #include<iostream>
+class Libro;
 using namespace std;
 class Ejemplares{
     public:

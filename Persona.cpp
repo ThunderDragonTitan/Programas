@@ -40,9 +40,14 @@ int Persona::getGenero()
 {
     return genero;
 }
-void Persona::setResidencia(Residencia casaI)
+void Persona::getResidencia(Residencia casaI)
 {
     cout<<"DIRECCION:"<<casaI.getDireccion()<<endl;
     cout<<"CIUDAD:"<<casaI.getCiudad()<<endl;
     cout<<"BARRIO:"<<casaI.getBarrio()<<endl;
+}
+void Persona::setResidencia(Residencia casaI)
+{
+    Residencia c1;
+    c1=casaI;
 }

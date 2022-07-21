@@ -7,6 +7,8 @@
 #include "Libro.h"
 #include "Ejemplares.h"
 #include "Autor.h"
+#include "Prestamo.h"
+#include "Multa.h"
 using namespace std;
 int main()
 {
@@ -203,6 +205,14 @@ int main()
     cout<<l3.getEditorial()<<endl;
     cout<<ej3.getEstado()<<endl;
     cout<<ej3.getNumEjemplares()<<endl;
+
+    Prestamo archivo;
+
+    archivo.setTiempoDias(7);
+    archivo.setFechaPrestamo("20/07/2022");
+
+    Lector PRI;
+    PRI.addPrestamo(archivo);
     return 0;
 }
 

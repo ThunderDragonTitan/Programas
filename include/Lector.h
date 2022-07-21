@@ -2,6 +2,7 @@
 #define LECTOR_H
 #include <Estudiante.h>
 #include <Profesor.h>
+#include <Prestamo.h>
 class Lector : public Estudiante , public Profesor
 {
     public:
@@ -9,6 +10,7 @@ class Lector : public Estudiante , public Profesor
         ~Lector();
         void setEstado(int status);
         int getEstado();
+        void addPrestamo(Prestamo archivo);
     private:
         int estado;
 };

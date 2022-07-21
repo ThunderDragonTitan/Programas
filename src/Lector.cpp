@@ -15,3 +15,12 @@ int Lector::getEstado()
 {
     return estado;
 }
+void Lector::addPrestamo(Prestamo archivo)
+{
+    Prestamo documento;
+    documento = archivo;
+
+    cout<<"FECHA PRESTAMO:"<<archivo.getFechaPrestamo()<<endl;
+    cout<<"DIAS DE MORA:"<<archivo.getTiempoDias()<<endl;
+
+}

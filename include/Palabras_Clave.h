@@ -3,7 +3,6 @@
 #include<string.h>
 #include<iostream>
 #include <Libro.h>
-#include <ListaS.h>
 using namespace std;
 class Palabras_Clave{
     private:
@@ -11,7 +10,7 @@ class Palabras_Clave{
         string nombre;
     public:
         Palabras_Clave();
-        virtual ~Palabras_Clave();
+        ~Palabras_Clave();
         void setNombre(string);
         void setNumero(int);
         string getNombre();

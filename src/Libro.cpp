@@ -2,6 +2,7 @@
 Libro::Libro(){
     issn=paginas=0;
     titulo=editorial=edicion="INDEFINIDO";
+
 }
 Libro::~Libro(){}
 void Libro:: setIssn(int aux){
@@ -19,12 +20,12 @@ void Libro:: setEditorial(string aux){
 void Libro:: setEdicion(string aux){
     edicion=aux;
 }
-void Libro::adicionarPalabra(Palabras_Clave *clave1){
-    Palabras_Clave *palabra;
+void Libro::adicionarPalabra(Palabras_Clave clave1){
+    Palabras_Clave palabra;
     palabra=clave1;
 }
-void Libro::adicionarAutor(Autor *a){
-    Autor *autor;
+void Libro::adicionarAutor(Autor a){
+    Autor autor;
     autor=a;
 }
 int Libro:: getIssn(){

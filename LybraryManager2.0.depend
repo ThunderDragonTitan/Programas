@@ -57,3 +57,93 @@
 	<Estudiante.h>
 	<Profesor.h>
 
+1658366264 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\persona.cpp
+	"Persona.h"
+	"Residencia.h"
+
+1658366158 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\persona.h
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658333345 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\residencia.h
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658341823 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\estudiante.cpp
+	"Estudiante.h"
+
+1658341823 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\estudiante.h
+	<Persona.h>
+
+1658340973 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\lector.cpp
+	"Lector.h"
+
+1658350850 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\lector.h
+	<Estudiante.h>
+	<Profesor.h>
+
+1658341630 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\profesor.h
+	<Persona.h>
+	<string.h>
+	<conio.h>
+	<iostream>
+
+1658339742 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\profesor.cpp
+	"Profesor.h"
+
+1658331113 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\residencia.cpp
+	"Residencia.h"
+
+1658366422 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\main.cpp
+	<string>
+	<conio.h>
+	<iostream>
+	"Residencia.h"
+	"Lector.h"
+	"Palabras_Clave.h"
+	"Libro.h"
+	"Ejemplares.h"
+	"Autor.h"
+
+1658364249 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\palabras_clave.h
+	<string.h>
+	<iostream>
+	<Libro.h>
+
+1658365755 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\libro.h
+	<string.h>
+	<iostream>
+	"Palabras_Clave.h"
+	"Autor.h"
+	"Ejemplares.h"
+
+1658363249 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\autor.h
+	<Persona.h>
+	<string.h>
+	<conio.h>
+	<iostream>
+	"Libro.h"
+
+1658363445 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\ejemplares.h
+	"Libro.h"
+	<string.h>
+	<iostream>
+
+1658349838 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\listas.h
+	"Libro.h"
+	<iostream>
+
+1658353930 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\palabras_clave.cpp
+	"Palabras_Clave.h"
+
+1658365814 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\libro.cpp
+	"Libro.h"
+
+1658352068 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\autor.cpp
+	"Autor.h"
+
+1658356999 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\ejemplares.cpp
+	"Ejemplares.h"
+

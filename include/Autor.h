@@ -5,6 +5,7 @@
 #include<conio.h>
 #include<iostream>
 #include"Libro.h"
+class Libro;
 class Autor : public Persona{
     public:
         Autor();

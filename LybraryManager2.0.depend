@@ -77,12 +77,13 @@
 1658341823 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\estudiante.h
 	<Persona.h>
 
-1658340973 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\lector.cpp
+1658368296 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\lector.cpp
 	"Lector.h"
 
-1658350850 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\lector.h
+1658368356 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\lector.h
 	<Estudiante.h>
 	<Profesor.h>
+	<Prestamo.h>
 
 1658341630 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\profesor.h
 	<Persona.h>
@@ -96,7 +97,7 @@
 1658331113 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\residencia.cpp
 	"Residencia.h"
 
-1658366422 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\main.cpp
+1658368190 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\main.cpp
 	<string>
 	<conio.h>
 	<iostream>
@@ -106,6 +107,8 @@
 	"Libro.h"
 	"Ejemplares.h"
 	"Autor.h"
+	"Prestamo.h"
+	"Multa.h"
 
 1658364249 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\palabras_clave.h
 	<string.h>
@@ -146,4 +149,22 @@
 
 1658356999 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\ejemplares.cpp
 	"Ejemplares.h"
+
+1658368700 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\multa.cpp
+	"Multa.h"
+
+1658368659 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\multa.h
+	<string.h>
+	<conio.h>
+	<iostream>
+	<Prestamo.h>
+
+1658366431 source:c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\src\prestamo.cpp
+	<Prestamo.h>
+	<Multa.h>
+
+1658355600 c:\users\jafet\onedrive\escritorio\lybrarymanager2.0\include\prestamo.h
+	<string.h>
+	<conio.h>
+	<iostream>
 

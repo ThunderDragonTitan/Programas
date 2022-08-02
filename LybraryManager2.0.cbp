@@ -36,15 +36,25 @@
 		</Compiler>
 		<Unit filename="Persona.cpp" />
 		<Unit filename="include/Autor.h" />
+		<Unit filename="include/Ejemplares.h" />
 		<Unit filename="include/Estudiante.h" />
 		<Unit filename="include/Lector.h" />
+		<Unit filename="include/Libro.h" />
+		<Unit filename="include/Multa.h" />
+		<Unit filename="include/Palabras_Clave.h" />
 		<Unit filename="include/Persona.h" />
+		<Unit filename="include/Prestamo.h" />
 		<Unit filename="include/Profesor.h" />
 		<Unit filename="include/Residencia.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Autor.cpp" />
+		<Unit filename="src/Ejemplares.cpp" />
 		<Unit filename="src/Estudiante.cpp" />
 		<Unit filename="src/Lector.cpp" />
+		<Unit filename="src/Libro.cpp" />
+		<Unit filename="src/Multa.cpp" />
+		<Unit filename="src/Palabras_Clave.cpp" />
+		<Unit filename="src/Prestamo.cpp" />
 		<Unit filename="src/Profesor.cpp" />
 		<Unit filename="src/Residencia.cpp" />
 		<Extensions>

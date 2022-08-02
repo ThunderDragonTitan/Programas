@@ -7,7 +7,32 @@
 #include "Libro.h"
 #include "Ejemplares.h"
 #include "Autor.h"
+#include "Prestamo.h"
+#include "Multa.h"
 using namespace std;
+void letrero(){
+	cout<<"*---------------------------------------*"<<endl;
+	cout<<"*---------------Bienvenido--------------*"<<endl;
+	cout<<"*---------------------------------------*"<<endl;
+}
+void finDelPrograma(){
+	cout<<"*---------------------------------------*"<<endl;
+	cout<<"*-----------Fin del programa------------*"<<endl;
+	cout<<"*---------------------------------------*"<<endl;
+}
+void menu(){
+	cout<<"*---------------------------------------*"<<endl;
+	cout<<"[1] Ingresar todos los datos(Lector)(Libro)(Prestamo)(Adicionar)"<<endl;
+	cout<<"[2] Registrar Libro"<<endl;
+	cout<<"[3] Registrar Lector"<<endl;
+	cout<<"[4] Agregar Multa"<<endl;
+	cout<<"[5] Buscar por identidad"<<endl;
+	cout<<"[6] Buscar libro prestamo"<<endl;
+	cout<<"[7] Buscar por palabras clave"<<endl;
+	cout<<"[8] Mostrar lectores(con prestamo activos)"<<endl;
+	cout<<"[9] Mostrar multas"<<endl;
+	cout<<"[10] Mostrar libros existentes"<<endl;
+}
 int main()
 {
     Palabras_Clave clave1,clave2,clave3;
@@ -203,6 +228,14 @@ int main()
     cout<<l3.getEditorial()<<endl;
     cout<<ej3.getEstado()<<endl;
     cout<<ej3.getNumEjemplares()<<endl;
+
+    Prestamo archivo;
+
+    archivo.setTiempoDias(7);
+    archivo.setFechaPrestamo("20/07/2022");
+
+    Lector PRI;
+    PRI.addPrestamo(archivo);
     return 0;
 }
 
